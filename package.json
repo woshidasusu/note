@@ -8,7 +8,6 @@
     "build": "gitbook build"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.2",
-    "gitbook": "^3.2.3"
+    "gitbook-cli": "^2.3.2"
   }
 }
