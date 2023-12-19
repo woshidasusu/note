@@ -1,13 +1,23 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "note",
+  "version": "1.0.0",
+  "description": "速查笔记",
+  "main": "main.js",
   "scripts": {
-    "gitbook": "gitbook",
-    "install": "gitbook install",
-    "start": "gitbook serve",
-    "build": "gitbook build"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
-  "dependencies": {
-    "gitbook-cli": "^2.3.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshidasusu/note.git"
+  },
+  "author": "suxq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woshidasusu/note/issues"
+  },
+  "homepage": "https://github.com/woshidasusu/note#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0"
   }
 }
