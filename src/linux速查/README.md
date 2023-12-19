@@ -16,6 +16,12 @@ find / -iname xxxx
 whereis nginx
 ```
 
+### df -h
+```shell
+# 查看磁盘使用情况
+df -h
+```
+
 ## 权限
 
 ### chown
