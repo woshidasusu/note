@@ -1,34 +1,26 @@
-# I am dasu
-
-### About
-
-<img src="../images/img.jpg" style="zoom:50%;" />
-
-姓        名：dasu																
-
-性        别：男
-
-年        龄：--（1994.09）					  						
-
-爱        好：躺平
-
-学        历：本科（2017.07 毕业于福州大学）			  
-
-现工作地：厦门
-
-期望职位：前端开发工程师
-
-
-### Link
-
-- [个人博客站：http://blog.dasu.fun](http://blog.dasu.fun)
-
-- [简书]( https://www.jianshu.com/u/bb52a2918096 )
-
-- [博客园]( https://www.cnblogs.com/dasusu/ )
-
-- [掘金](https://juejin.im/user/5ab99dc3f265da239c7b5e76/posts)
-
-  <img src="../images/dasuAndroidTv2.png" alt="微信公众号" style="zoom: 50%;" />
-
-  公共号内有我微信联系方式和简历，这些个人信息就不随意挂网络了
+---
+home: true
+title: Home
+heroImage: /images/hero.png
+actions:
+  - text: Get Started
+    link: /guide/getting-started.html
+    type: primary
+  - text: Introduction
+    link: /guide/
+    type: secondary
+features:
+  - title: Simplicity First
+    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  - title: Vue-Powered
+    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
+  - title: Performant
+    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: Themes
+    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
+  - title: Plugins
+    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
+  - title: Bundlers
+    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+footer: MIT Licensed | Copyright © 2018-present VuePress Community
+---

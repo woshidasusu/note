@@ -1,34 +1,25 @@
-# I am dasu
+# 速查笔记
 
-### About
+## 环境准备
 
-<img src="../images/img.jpg" style="zoom:50%;" />
+```bash
+node -v
+# v18.17.0
 
-姓        名：dasu																
+npm install -g pnpm 
+pnpm -v
+# 8.12.1
 
-性        别：男
+```
 
-年        龄：--（1994.09）					  						
+## 构建
 
-爱        好：躺平
+1. `pnpm install`
+2. ``
+3. 
 
-学        历：本科（2017.07 毕业于福州大学）			  
+## 一些依赖库说明
 
-现工作地：厦门
-
-期望职位：前端开发工程师
-
-
-### Link
-
-- [个人博客站：http://blog.dasu.fun](http://blog.dasu.fun)
-
-- [简书]( https://www.jianshu.com/u/bb52a2918096 )
-
-- [博客园]( https://www.cnblogs.com/dasusu/ )
-
-- [掘金](https://juejin.im/user/5ab99dc3f265da239c7b5e76/posts)
-
-  <img src="../images/dasuAndroidTv2.png" alt="微信公众号" style="zoom: 50%;" />
-
-  公共号内有我微信联系方式和简历，这些个人信息就不随意挂网络了
+- `anywhere` 是一个简单的静态文件服务器，用于在本地快速启动一个 Web 服务器并提供静态文件的访问。
+- `sort-package-json` 是一个用于对 package.json 文件进行排序的 Node.js 模块。它可以帮助你规范化和优化 package.json 文件的结构，使其更易读和维护。
+- `rimraf` 是一个用于删除文件和目录的 Node.js 模块。它提供了一个简单而强大的方法来递归地删除文件和目录，可以跨平台使用。
