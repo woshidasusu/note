@@ -8,7 +8,7 @@ import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
 import { defaultTheme } from "@vuepress/theme-default";
 import { getDirname, path } from "@vuepress/utils";
-import { head, navbar, sidebar } from "./configs/index.js";
+import { head, navbar } from "./configs/index.js";
 
 const __dirname = getDirname(import.meta.url);
 const require = createRequire(import.meta.url);
@@ -31,7 +31,7 @@ export default defineUserConfig({
 
   // configure default theme
   theme: defaultTheme({
-    logo: "/images/img.png",
+    logo: "images/img.jpg",
     repo: "woshidasusu/note",
     docsDir: "docs",
 
@@ -44,7 +44,7 @@ export default defineUserConfig({
         selectLanguageText: "选择语言",
         selectLanguageAriaLabel: "选择语言",
         // sidebar
-        sidebar: sidebar,
+        sidebar: 'auto',
         // page meta
         editLinkText: "在 GitHub 上编辑此页",
         lastUpdatedText: "上次更新",
