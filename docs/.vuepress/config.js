@@ -16,6 +16,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
   base: "/",
+  dest: "dist",
   head,
   locales: {
     "/": {
@@ -80,17 +81,7 @@ export default defineUserConfig({
   markdown: {
     importCode: {
       handleImportPath: (importPath) => {
-        // handle @vuepress packages import path
-        if (importPath.startsWith("@vuepress/")) {
-          const packageName = importPath.match(/^(@vuepress\/[^/]*)/)[1];
-          return importPath
-            .replace(
-              packageName,
-              path.dirname(require.resolve(`${packageName}/package.json`))
-            )
-            .replace("/src/", "/lib/")
-            .replace(/hotKey\.ts$/, "hotKey.d.ts");
-        }
+        // 自定义解析md
         return importPath;
       },
     },

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-cli build docs --clean-cache --clean-temp",
-    "docs:dev": "vuepress-cli dev docs --clean-cache --clean-temp",
-    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
-    "docs:serve": "anywhere -s -h localhost -d docs/.vuepress/dist"
+    "build": "vuepress-cli build docs --clean-cache --clean-temp",
+    "dev": "vuepress-cli dev docs --clean-cache --clean-temp",
+    "clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist dist",
+    "serve": "anywhere -s -h localhost -d dist"
   },
   "dependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.0",
